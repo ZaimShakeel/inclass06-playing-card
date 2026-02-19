@@ -1,8 +1,7 @@
 .table {
    width: 400px;
    height: 300px;
-
-   /* TODO: Add part of your solution here */
+   position: relative;
    background: linear-gradient(to bottom, forestgreen, darkgreen);
 }
 
@@ -22,23 +21,20 @@
    line-height: 160px;
    text-align: center;
    font-size: 80px;
-
-   /* TODO: Add part of your solution here */
    box-shadow: 3px 3px 0px black;
    border-radius: 5px;
+   position: absolute;
 }      
 
+/* RED CARD ON TOP */
 .card-top {
-   /* TODO: Add part of your solution here */
-   position: absolute;
    left: 150px;
    top: 100px;
    z-index: 8;
 }
 
+/* BLACK CARD UNDERNEATH */
 .card-bottom {
-   /* TODO: Add part of your solution here */
-   position: absolute;
    left: 240px;
    top: 120px;
    z-index: 7;
@@ -61,13 +57,12 @@
 }
 
 .top-left {
-   /* TODO: Add part of your solution here */
+   position: absolute;
    left: 2px;
    top: 2px;
 }
 
 .bottom-right {
-   /* TODO: Add part of your solution here */
    position: absolute;
    right: 2px;
    bottom: 2px;
